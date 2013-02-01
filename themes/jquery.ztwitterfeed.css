@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*
+ * Example of zTwitterFeed Styling
+ *
+ * Version: 1.1.1
+ * (c) Copyright 2011-2012, Zazar Ltd
+ *
+ */
+@font-face {
+    font-family: 'open_sans_lightregular';
+    src: url('themes/opensans-light.eot');
+    src: url('themes/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('themes/opensans-light.woff') format('woff'),
+         url('themes/opensans-light.ttf') format('truetype'),
+         url('themes/opensans-light.svg#open_sans_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family:'open_sans_lightregular';
+    text-decoration:none;
+    text-shadow:none;
+}
+
+.twitterFeed
+{
+	font-family: 'open_sans_lightregular';
+	font-size: 90%;
+	width: 100%;
+    text-shadow:none;
+    font-weight:normal;
+}
+.twitterFeed a
+{
+	color:#E10000;
+	font-weight: normal;
+    text-shadow:none
+}
+.twitterFeed a:hover, .twitterHeader a, .tweetName a { text-decoration: none; }
+.twitterFeed a img { border: none; }
+.twitterFeed img
+{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.twitterHeader { padding: 0.2em 0;color:#fff; }
+.twitterHeader span
+{
+	font-weight: normal;
+	font-size: 2.2em;
+    color:#E10000;
+}
+
+.twitterBody
+{
+clear:left;
+	border: 0px solid transparent;
+     left:50%;
+    margin-left:0px;
+}
+.twitterBody ul { list-style: none; }
+.twitterBody ul, .twitterRow, .twitterRow h4
+{
+	margin: 0;
+	padding: 0;
+}
+
+.twitterRow { padding: 0.5em; }
+.twitterRow p { margin-left: 60px; }
+
+.tweetName a, .tweetTime
+{
+	font-weight: normal;
+	color:#E10000;
+}
+.tweetName
+{
+	float: left;
+	font-size: 1.2em;
+}
+.tweetTime { text-align: right;margin-bottom:-8px; }
+
+.odd {background:#f3f3f3;}
+.even { background:#f9f9f9;}

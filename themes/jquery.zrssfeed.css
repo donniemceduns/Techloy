@@ -1,0 +1,63 @@
+?@charset "UTF-8";
+/*
+ * Example of zRSSFeed Styling
+ *
+ * Version: 1.1.9
+ * (c) Copyright 2011-2012, Zazar Ltd
+ *
+ */
+@font-face {
+    font-family: 'open_sans_lightregular';
+    src: url('themes/opensans-light.eot');
+    src: url('themes/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('themes/opensans-light.woff') format('woff'),
+         url('themes/opensans-light.ttf') format('truetype'),
+         url('themes/opensans-light.svg#open_sans_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: 'open_sans_lightregular';
+}
+
+.rssFeed {
+	font-family: 'open_sans_lightregular';
+	font-size: 90%;
+	margin: 0em 0em;
+}
+.rssFeed a {
+	color: #E10000;
+	text-decoration: none;
+    font-size:16px;
+    font-weight:normal;
+}
+.rssFeed a:hover {
+	color: #E10000;
+	text-decoration: underline;
+}
+
+.rssHeader { padding: 0.2em 0; }
+
+.rssBody { border: 0px solid #222;color:#555;font-size:14px; }
+.rssBody ul { list-style: none; }
+.rssBody ul, .rssRow, .rssRow h4, .rssRow p {
+	margin: 0;
+	padding: 0;
+}
+
+.rssRow { padding: 0.8em; }
+.rssRow h4 { font-size: 12px; }
+.rssRow div {
+	font-size: 95%;
+	color: #555;
+	margin: 0.2em 0 0.4em 0;
+}
+
+.odd { background:#f9f9f9; }
+.even { background:#f9f9f9;}
+
+.rssRow .rssMedia {
+	padding: 0.5em;
+	font-size: 1em;
+}
